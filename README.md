@@ -4,7 +4,7 @@
 
   `Today done with:`
   
-    ## 1. Introduction to Bash
+   ## CHAPTER-1. Introduction to Bash
 
 * What is Shell?
 * Introduction to Linux
@@ -16,7 +16,7 @@
 * Finding System Date and Time
 * Other Commonly Used Bash Commands
 
-   ##   2. Navigation Commands
+   ##   CHAPTER-2. Navigation Commands
 
 * Pathnames in Bash
 * Symbolic Links & Hard Links
@@ -26,7 +26,7 @@
 * Create a Directory in Bash
 * Remove a Directory in Bash
 
-   ## 3. File Manipulation Commands
+   ## CHAPTER-3. File Manipulation Commands
 * *Create a File in Bash
 * *Remove a File in Bash
 * *Open/Display Content of a File
@@ -34,14 +34,20 @@
 * *Copying Files in Bash
 * *Zipping a File in Bash
 
-     ## 4. Permission Commands
+     ## CHAPTER-4. Permission Commands
 * What are Permissions?
 * Set/Remove Permissions in Bash
 
-     ## 5. Filtering & Searching Commands
+     ## CHAPTER-5. Filtering & Searching Commands
 * *Searching in Bash
 * *Sorting File Contents in Order
 * *Viewing Beginning and Ending Contents of Files
 * *Filtering Repeated Lines Out
 * *Regular Expressions (Regex)
 * *GREP vs. EGREP vs. FGREP
+     
+     ## CHAPTER-6. System & Process Commands
+* *Processes
+* *Jobs: How Do They Differ from Processes
+* *Getting Root Privileges
+* *Killing a Process
