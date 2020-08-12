@@ -51,3 +51,11 @@
 * *Jobs: How Do They Differ from Processes
 * *Getting Root Privileges
 * *Killing a Process
+
+     ## CHAPTER-7. Variables and Environment
+* Variables and their Types
+* Variable Assignment & Expansion
+* Terminal is fun (Really)
+* Caution: Cool Stuff Ahead!
+* The Real Power of Bash
+* How to Use Git with Bash
