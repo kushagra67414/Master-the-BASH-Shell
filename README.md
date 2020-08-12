@@ -27,13 +27,21 @@
 * Remove a Directory in Bash
 
    ## 3. File Manipulation Commands
-* Create a File in Bash
-* Remove a File in Bash
-* Open/Display Content of a File
-* Move Files in a Directory
-* Copying Files in Bash
-* Zipping a File in Bash
+* *Create a File in Bash
+* *Remove a File in Bash
+* *Open/Display Content of a File
+* *Move Files in a Directory
+* *Copying Files in Bash
+* *Zipping a File in Bash
 
      ## 4. Permission Commands
 * What are Permissions?
 * Set/Remove Permissions in Bash
+
+     ## 5. Filtering & Searching Commands
+* *Searching in Bash
+* *Sorting File Contents in Order
+* *Viewing Beginning and Ending Contents of Files
+* *Filtering Repeated Lines Out
+* *Regular Expressions (Regex)
+* *GREP vs. EGREP vs. FGREP
