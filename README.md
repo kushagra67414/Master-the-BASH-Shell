@@ -33,3 +33,7 @@
 * Move Files in a Directory
 * Copying Files in Bash
 * Zipping a File in Bash
+
+     ## 4. Permission Commands
+* What are Permissions?
+* Set/Remove Permissions in Bash
