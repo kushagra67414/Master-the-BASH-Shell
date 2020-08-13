@@ -59,3 +59,7 @@
 * Caution: Cool Stuff Ahead!
 * The Real Power of Bash
 * How to Use Git with Bash
+
+     ## CHAPTER-8. Core Bash
+* Globbing and Quoting
+* Variables
