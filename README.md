@@ -61,5 +61,6 @@
 * How to Use Git with Bash
 
      ## CHAPTER-8. Core Bash
+a)
 * Globbing and Quoting
 * Variables
