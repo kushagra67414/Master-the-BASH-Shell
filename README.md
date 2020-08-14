@@ -64,3 +64,6 @@
 a)
 * Globbing and Quoting
 * Variables
+b)
+* Functions, Builtins, Aliases and Programs 
+* Pipes and Redirect
