@@ -1,0 +1,39 @@
+1. The file /dev/null is a special file created by Linux (and UNIX) kernels. 
+It is effectively a black hole into which data can be pumped: anything written to it will be absorbed and ignored.
+
+2. The ./ characters at the start of the above command tells the shell that you want to run this file from within the context of the current working directory. It’s followed by the filename to run.
+
+Similarly, the ../ characters indicate that you want to run from the directory above the current working directory.
+
+QUES :   how can we make sure that simple_script can be run without using ./ at the front?
+
+Commands :
+
+PATH=${PATH}:.
+simple_script
+
+
+Type the above code into the terminal in this lesson.
+
+That’s how! In the first line you set the PATH to itself, plus the current working directory.
+ It then looks through all the directories that were previously set in your PATH variable, and then finally tries the .,
+ or local folder, as we saw before.
+
+3.	Avoiding Startup Scripts #
+It’s often useful to start up bash while avoiding all these startup scripts, to get bash in as raw a state as possible. When debugging, or testing core bash functionality, this can be invaluable.
+
+To acheive that, run this:
+
+Command : env -i bash --noprofile --norc
+     \\Type the above code into the terminal in this lesson.
+
+env is a program that works on the environment. The effect of the -i flag is to remove the environment variables from the command you run. This means that exported variables will not get inherited by the bash program we are running. We’re running the bash program itself with two flags. The --noprofile flag tells bash not to source the system-wide bash startup files, and the --norc tells bash not to source the personal ones present in your home folder.
+
+The end effect of this is that your shell has a very minimal set of variables available:
+
+command : env
+			\\Type the above code into the terminal in this lesson. You will see less variables
+
+Because you ‘emptied’ the environment, the number of variables you should see will be very small.
+
+4. 
