@@ -68,3 +68,11 @@ a)
 b)
 * Functions, Builtins, Aliases and Programs 
 * Pipes and Redirect
+
+    ## CHAPTER-9 Scripting BASH
+
+A)
+
+* Scripts and Startup
+* Command Substitution
+* Tests
