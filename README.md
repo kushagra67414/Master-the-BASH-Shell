@@ -100,3 +100,6 @@ c)
 * Job Control
 * Traps and Signals
 * Debugging
+* String Manipulation
+* Autocomplete
+* Conclusion
