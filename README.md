@@ -76,3 +76,9 @@ A)
 * Scripts and Startup
 * Command Substitution
 * Tests
+
+B)
+
+* Loops
+* Exit Codes
+* The 'set' Builtin
