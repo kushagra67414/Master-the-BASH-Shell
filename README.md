@@ -79,3 +79,18 @@ B)
 * Loops
 * Exit Codes
 * The 'set' Builtin
+
+c)
+
+* Process Substitution
+* Subshells
+* The Internal Field Separator
+
+    ## CHAPTER-10 Bash in Practice
+
+* The Readline Library
+* Terminal Codes
+* The Prompt
+* Here Docs
+* Bash History
+* Putting It Together - Some Useful Examples
