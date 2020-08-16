@@ -94,3 +94,9 @@ c)
 * Here Docs
 * Bash History
 * Putting It Together - Some Useful Examples
+
+    ## CHAPTER-11 Advanced Bash
+
+* Job Control
+* Traps and Signals
+* Debugging
