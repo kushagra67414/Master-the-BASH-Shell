@@ -1,10 +1,7 @@
 # Master-the-BASH-Shell
 
-##  Day-1
-
-  `Today done with:`
   
-   ## CHAPTER-1. Introduction to Bash
+  ## CHAPTER-1. Introduction to Bash
 
 * What is Shell?
 * Introduction to Linux
