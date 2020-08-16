@@ -36,4 +36,40 @@ command : env
 
 Because you ‘emptied’ the environment, the number of variables you should see will be very small.
 
-4. 
+
+4.		 More Advanced History Usage #
+
+You might want to stop there, as trying to memorise/learn much more in one go can be overwhelming.
+
+But there are many more tricks to learn like this in bash, 
+so I’m going to lay them out now so you might return to them later when you’re ready.
+
+Carrying on from where you left off above:
+
+Command : 1. grep Abnother file1
+	  2. ^Ab^a^
+Type the above code into the terminal in this lesson.
+
+The carets (^) are used to replace a string from the previous command. 
+In this case, Ab is replaced with: a. This is often handy if you made a spelling mistake.
+
+5.
+
+String Editing #
+Bash provides a way to extract a substring from a string. The following example explains how to parse n characters starting from a particular position.
+
+Work out what’s going on here. You may need to consult the manual:
+
+Command : 
+echo ${A:2}
+echo ${A:2:3}
+Type the above code into the terminal in this lesson.
+
+You can replace sections of scripts using search and replace. The first part enclosed in / signs represents what’s searched for, and the second what is replaced:
+
+Command : echo "${A/234/432}"
+echo "${A//234/432}"
+Type the above code into the terminal in this lesson.
+
+What’s going on in the second command above? How does it differ from the first?
+
